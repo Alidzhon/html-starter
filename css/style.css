@@ -5,9 +5,11 @@
 body {
      background-color: #f7f7f7;
      padding: 15px;
+     font-family: 'Inter', sans-serif;
 }
 
 .page__wrapper {
+     overflow: hidden;
      max-width: 375px;
      margin: auto;
      background: #f7f7f7;
@@ -16,5 +18,106 @@ body {
 }
 
 .header {
+    color: #fff;
     padding: 40px 42px 145px;
+    background: linear-gradient(0deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url('../img/bg.png') no-repeat center / cover;
+    border-radius: 0px 0px 90px 90px; 
+}
+
+.container {
+     max-width: 300px;
+     margin: auto;
+}
+
+.hello {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.hello-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+}
+
+.user {
+     margin-top: -79px;
+     text-align: center;
+     background: #ffffff;
+     box-shadow: 0px 4px  30px rgba(0, 0, 0, 0.05);
+     border-radius: 10px;
+     padding-bottom: 20px;
+}
+
+.user-avatar {
+     margin-top: -43px;
+     border: 4px solid #fffefe;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+.user-name {
+     margin-top: 8px;
+     margin-bottom: 4px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+}
+
+.user-description {
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 15px;
+     color: #6a6a6a;
+     margin-top: 4px;
+}
+
+
+.card {
+    background: #ffffff;
+    box-shadow: 0px 4px  30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 20px;
+}
+
+.buttons {
+     display: flex;
+     justify-content: space-between;
+     max-width: 260px;
+     margin: auto;
+     gap: 10px;
+}
+
+.button {
+     background-color: #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     flex-shrink: 1;
+     width: 100%;
+     border-radius: 5px;
+     text-decoration: none;
+     color: #fff;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 15px;
+     gap: 10px;
+     margin-bottom: 6px;
+}
+
+.button.vk {
+    background: #4c75a3;
+}
+.button.tg {
+    background: #0088cc;
+}
+.button.gh {
+     background: rgb(102, 11, 11);
+}
+.button.hh {
+    background: #d6001c;
 }
